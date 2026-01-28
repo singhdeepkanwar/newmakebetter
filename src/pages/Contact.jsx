@@ -56,13 +56,13 @@ const Contact = () => {
                         viewport={{ once: true }}
                         className="contact-info-cards"
                     >
-                        <div className="contact-card glass">
+                        {/* <div className="contact-card glass">
                             <Phone className="icon" size={24} />
                             <div>
                                 <h4>Call Us</h4>
                                 <p>+91 9872180369</p>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="contact-card glass">
                             <Mail className="icon" size={24} />
                             <div>
@@ -70,13 +70,13 @@ const Contact = () => {
                                 <p>info@makebetter.tech</p>
                             </div>
                         </div>
-                        <div className="contact-card glass">
+                        {/* <div className="contact-card glass">
                             <MapPin className="icon" size={24} />
                             <div>
                                 <h4>Visit Us</h4>
                                 <p>Digital Plaza, Tech City, India</p>
                             </div>
-                        </div>
+                        </div> */}
                     </motion.div>
 
                     <motion.form

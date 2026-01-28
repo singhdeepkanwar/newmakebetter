@@ -23,9 +23,7 @@ const Footer = () => {
                             We build experiences that matter.
                         </p>
                         <div className="social-links">
-                            <a href="#" className="social-icon"><Twitter size={20} /></a>
-                            <a href="#" className="social-icon"><Linkedin size={20} /></a>
-                            <a href="#" className="social-icon"><Github size={20} /></a>
+                            <a href="https://www.linkedin.com/company/makebetter-technologies" target='_blank' className="social-icon"><Linkedin size={20} /></a>
                         </div>
                     </div>
 
@@ -41,18 +39,18 @@ const Footer = () => {
 
                     <div className="footer-contact">
                         <h4>Contact Us</h4>
-                        <div className="contact-item">
+                        {/* <div className="contact-item">
                             <Phone size={18} className="icon" />
                             <span>+91 9872180369</span>
-                        </div>
+                        </div> */}
                         <div className="contact-item">
                             <Mail size={18} className="icon" />
                             <span>info@makebetter.tech</span>
                         </div>
-                        <div className="contact-item">
+                        {/* <div className="contact-item">
                             <MapPin size={18} className="icon" />
                             <span>India</span>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
