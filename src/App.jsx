@@ -8,6 +8,7 @@ import Services from './pages/Services';
 import Projects from './pages/Projects';
 import Career from './pages/Career';
 import Contact from './pages/Contact';
+import Legal from './pages/Legal';
 
 // Scroll to top on route change
 const ScrollToTop = () => {
@@ -32,6 +33,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/career" element={<Career />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/legal" element={<Legal />} />
           </Routes>
         </main>
         <Footer />
